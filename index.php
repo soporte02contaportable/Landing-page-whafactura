@@ -63,7 +63,7 @@
                             <ul>
                                 <li>No necesitas instalar nada</li>
                                 <li>No necesitas aprender nada</li>
-                                <li>Tan fácil como chatear con alguién</li>
+                                <li>Tan fácil como chatear con alguien</li>
                             </ul>
                         </div>
                     </div>
@@ -78,13 +78,13 @@
         <!--Caracteristicas-->
         <section class="py-5">
             <div class="container">
-                <h2 class="text-center fw-bold pb-3">¿Como Funciona WhaFactura?</h2>
-                <h4 class="text-center fw-bold pb-3">Emite facturas en minutos y enviálas automáticamente por correo o WhatsApp.</h4>
+                <h2 class="text-center fw-bold pb-3">¿Comó funciona whafactura? </h2>
+                <h4 class="text-center fw-bold pb-3">Emite facturas en minutos y envíalas automáticamente por correo o WhatsApp.</h4>
                 <div class="row gy-3 justify-content-center">
                     <div class="col-lg-6 col-xl-4">
                         <div class="card bg-elephant-900">
                             <div class="d-flex justify-content-center">
-                                <img class="img-card" src="img/icons/unic-pago.png" alt="">
+                                <img class="img-card" src="img/icons/bot.png" alt="Bot de WhaFactura">
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title">¡Solicita la factura!</h5>
@@ -95,11 +95,11 @@
                     <div class="col-lg-6 col-xl-4">
                         <div class="card">
                             <div class="d-flex justify-content-center">
-                                <img class="img-card" src="img/icons/sin-limte-dte.png" alt="">
+                                <img class="img-card" src="img/icons/planificacion-fiscal.png" alt="Planificación Fiscal">
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title">¡Ingresa datos Fiscales!</h5>
-                                <p class="card-text">Proprociana los datos de tu empresa y RUT.
+                                <p class="card-text">Proprociana los datos tributarios de tu empresa y RUT.
                                     </p>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                     <div class="col-lg-6 col-xl-4">
                         <div class="card">
                             <div class="d-flex justify-content-center">
-                                <img class="img-card" src="img/icons/sin-costo-adicional.png" alt="">
+                                <img class="img-card" src="img/icons/lista.png" alt="Lista de Productos">
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title">¡Agrega los detalles!</h5>
@@ -119,11 +119,11 @@
                     <div class="col-lg-6 col-xl-4">
                         <div class="card">
                             <div class="d-flex justify-content-center">
-                                <img class="img-card" src="img/icons/sin-limite-usuario.png" alt="">
+                                <img class="img-card" src="img/icons/recibir .png" alt="Recibir Comprobante">
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title">¡Recibe tu comprobante!</h5>
-                                <p class="card-text">Recibe la factura electronica en el metodo elegido.
+                                <p class="card-text">Recibe la factura electrónica en el metodo elegido.
                                     </p>
                             </div>
                         </div>
