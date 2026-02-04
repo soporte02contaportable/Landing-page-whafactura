@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --heading-font: 'Inter', sans-serif;
+    --body-font: 'Manrope', sans-serif;
+
+    --h1-font-size: 3rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 2rem;
+    --normal-font-size: rem(15px);
+
+    --black-haze-50: #f7f8f8;
+
+    --shamrock-400: #3ae4b7;
+    --shamrock-500: #01c89a;
+
+    --elephant-900: #263847;
+    --elephant-950: #1b2e3d;
+
+    --salomie-200: #f5d389;
+}
+
+.bg-gradient-magic {
+
+    /* background-image: linear-gradient(140deg, rgba(94, 94, 94, 0.04) 0%, rgba(94, 94, 94, 0.04) 40%,rgba(189, 189, 189, 0.04) 40%, rgba(189, 189, 189, 0.04) 100%),linear-gradient(300deg, rgba(186, 186, 186, 0.04) 0%, rgba(186, 186, 186, 0.04) 35%,rgba(254, 254, 254, 0.04) 35%, rgba(254, 254, 254, 0.04) 100%),linear-gradient(226deg, rgba(69, 69, 69, 0.04) 0%, rgba(69, 69, 69, 0.04) 89%,rgba(83, 83, 83, 0.04) 89%, rgba(83, 83, 83, 0.04) 100%),linear-gradient(266deg, rgba(200, 200, 200, 0.04) 0%, rgba(200, 200, 200, 0.04) 76%,rgba(91, 91, 91, 0.04) 76%, rgba(91, 91, 91, 0.04) 100%),linear-gradient(90deg, rgb(53, 25, 237),rgb(15, 161, 235)); */
+
+    background-image: radial-gradient(circle at 17% 77%, rgba(17, 17, 17, 0.04) 0%, rgba(17, 17, 17, 0.04) 50%, rgba(197, 197, 197, 0.04) 50%, rgba(197, 197, 197, 0.04) 100%), radial-gradient(circle at 26% 17%, rgba(64, 64, 64, 0.04) 0%, rgba(64, 64, 64, 0.04) 50%, rgba(244, 244, 244, 0.04) 50%, rgba(244, 244, 244, 0.04) 100%), radial-gradient(circle at 44% 60%, rgba(177, 177, 177, 0.04) 0%, rgba(177, 177, 177, 0.04) 50%, rgba(187, 187, 187, 0.04) 50%, rgba(187, 187, 187, 0.04) 100%), linear-gradient(19deg, rgb(28, 117, 250), rgb(34, 2, 159));
+}
+
+.bg-elephant-cp {
+
+    background: #263947;
+    background: conic-gradient(from 315deg, #263947, #1B2E3D);
+}
+
+.bg-gradient-cp {
+
+    background: #1A72B2;
+    background: conic-gradient(from 315deg, #1A72B2, #0A6BB1);
+}
+
+.bg-black-haze-50 {
+    background-color: var(--black-haze-50);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-font {
+    font-family: var(--heading-font);
+}
+
+body,
+.body-font {
+    font-family: var(--body-font)
+}
+
+.t1 {
+    font-size: var(--h1-font-size);
+}
+
+.t2 {
+    font-size: var(--h2-font-size);
+}
+
+.t3 {
+    font-size: var(--h3-font-size);
+}
+
+.text-shamrock-400 {
+    color: var(--shamrock-400);
+}
+
+.text-salomie-200 {
+    color: var(--salomie-200);
+}
+
+.img-banner {
+    height: 500px;
+    width: auto;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    .img-banner {
+        height: 150px;
+        width: auto;
+    }
+}
+
+/* @media screen and (max-width: 1200px) {
+    .img-banner {
+        height: 300px;
+        width: auto;
+    }
+} */
+
+.card {
+    height: 100%;
+}
+
+.img-card {
+    height: 125px;
+    width: auto;
+    margin-top: 1.5rem;
+}
+
+.boder-cp {
+    border: 1px solid rgb(227 233 237);
+}
