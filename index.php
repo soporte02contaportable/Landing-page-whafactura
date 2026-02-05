@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center">
-                    <img class="img-fluid" src="img/Mockups/whafacturalogov3.png" alt="Factura electrónica via whatsapp" width="350"/>
+                    <img class="img-fluid" src="img/Mockups/whafacturalogov3.png" alt="Factura electrónica via whatsapp" width="350" />
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
         <section class="py-5">
             <div class="container">
                 <h2 class="text-center fw-bold pb-3">¿Comó funciona whafactura? </h2>
-                <h4 class="text-center fw-bold pb-3">Emite facturas en minutos y envíalas automáticamente por correo o WhatsApp.</h4>
+                <h5 class="text-center pb-3">Emite facturas en minutos y envíalas automáticamente por correo o WhatsApp.</h5>
                 <div class="row gy-3 justify-content-center">
                     <div class="col-lg-6 col-xl-4">
                         <div class="card bg-elephant-900">
@@ -100,7 +100,7 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title">¡Ingresa datos Fiscales!</h5>
                                 <p class="card-text">Proprociana los datos tributarios de tu empresa y RUT.
-                                    </p>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title">¡Agrega los detalles!</h5>
                                 <p class="card-text">Llena los campos con productos o servicios a facturar.
-                                    </p>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title">¡Recibe tu comprobante!</h5>
                                 <p class="card-text">Recibe la factura electrónica en el metodo elegido.
-                                    </p>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
         </section>
         <!--Caracteristicas-->
 
-        
+
         <!--Productos-->
         <section class="py-5">
             <div class="container">
@@ -147,7 +147,7 @@
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title">ContaPortable WhaFactura</h5>
-                                <p class="card-text"> Facturador para emisión de hasta 50 
+                                <p class="card-text"> Facturador para emisión de hasta 50
                                     Documentos Electrónicos</p>
                                 <p class="h2 fw-bold mb-0 text-primary">$20.00 </p>
                                 <small class="fw-bold">Para una empresa con hasta 50 DTE's mensuales</small>
@@ -164,7 +164,7 @@
                 </div>
             </div>
         </section>
-                    
+
         <!--Productos-->
 
         <!--Servicios-->
@@ -216,8 +216,8 @@
         </section>
         <!--Servicios-->
 
-       
-         <!--Contacto-->
+
+        <!--Contacto-->
         <section class="bg-elephant-cp">
             <div class="container py-5">
                 <div class="text-center">
