@@ -143,7 +143,7 @@
                     <div class="col-lg-6 col-xl-3">
                         <div class="card boder-cp">
                             <div class="d-flex justify-content-center">
-                                <img class="img-card" src="img/products/box-facturacion.jpg" alt="">
+                                <img class="img-card" src="img/Mockups/whafacturalogov3.png" alt="">
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title">WhaFactura</h5>
