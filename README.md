@@ -1,42 +1,73 @@
-# Descripción del proyecto
+## Descripción del proyecto
+
+Landing page de **WhaFactura** (producto de ContaPortable) desarrollada en PHP con Bootstrap. El proyecto muestra información comercial del servicio, características, precios y enlaces directos a contacto vía WhatsApp.
+
 ## Tecnologías utilizadas
 
-### PHP
-PHP es un lenguaje de programación de código abierto muy popular, especialmente adecuado para el desarrollo 1  web y que puede ser incrustado en HTML.
-
-### Bootstrap
-Bootstrap es un framework CSS y JavaScript para el desarrollo de proyectos web responsive. Para este proyecto se ha utilizado el cdn de Bootstrap incluido en la cabecera del archivo `index.php`.
-
-### Bootstrap Icons
-Bootstrap Icons es un conjunto de iconos SVG personalizables y fáciles de usar. Para este proyecto se ha utilizado el paquete de dependencias de Bootstrap Icons que se indica en el archivo `package.json`.
+- **PHP**: Lenguaje de programación del lado del servidor utilizado para renderizar la página principal (`index.php`).
+- **Bootstrap**: Framework CSS y JavaScript para el desarrollo de interfaces web responsive. En este proyecto se usa el CDN de Bootstrap incluido en la cabecera de `index.php`.
+- **Bootstrap Icons**: Conjunto de iconos SVG instalados como dependencia de Node (`bootstrap-icons`) y referenciados desde `node_modules`.
 
 ## Estructura del proyecto
-- `css/`: Carpeta que contiene archivos de estilos CSS necesarios para el proyecto.
-- `img/`: Carpeta que contiene imágenes necesarias para el proyecto.
-- `index.php`: Archivo principal del proyecto que contiene la estructura HTML y el código PHP necesario.
-- `package.json`: Archivo de configuración de Node.js que contiene las dependencias necesarias para el proyecto.
-- `.gitignore`: Archivo que contiene las rutas de archivos y carpetas que se deben ignorar en el control de versiones con Git.
 
-## Instrucciones de uso
+- `css/`: Estilos CSS personalizados del landing.
+- `img/`: Imágenes del sitio (mockups, iconos, productos, etc.).
+- `index.php`: Archivo principal con la estructura HTML y el contenido del landing.
+- `package.json`: Configuración de dependencias de Node (actualmente `bootstrap-icons`).
+- `.gitignore`: Archivos y carpetas excluidos del control de versiones (por ejemplo, `node_modules/`).
+
+## Instalación y uso en local
 
 ### Requisitos previos
-- Tener instalado un servidor web local como XAMPP en Windows o Apache en Linux.
-- Tener instalado PHP en el servidor web local.
-- Tener instalado Node.js y npm para instalar los paquetes de dependencias
 
-### Pasos
-1. Clonar el repositorio en la carpeta `htdocs` de XAMPP o en la carpeta `www/html/` de Apache según sea tú configuración para trabajar con PHP.
+- Tener instalado un servidor web local:
+  - **Windows**: XAMPP (carpeta `htdocs`).
+  - **Linux**: Apache (carpeta `var/www/html` u otra según configuración).
+- Tener instalado **PHP** en el servidor web local.
+- Tener instalado **Node.js** y **npm** para gestionar las dependencias de frontend.
+
+### 1. Clonar el proyecto
+
+Clona este repositorio dentro de la carpeta pública de tu servidor web (por ejemplo, `htdocs` en XAMPP):
+
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+cd /ruta/a/htdocs
+git clone <URL_DEL_REPOSITORIO_GIT>
 ```
 
-2. Instalar las dependencias
+> Reemplaza `<URL_DEL_REPOSITORIO_GIT>` por la URL real del repositorio (HTTPS o SSH).
+
+Si mantienes el nombre de la carpeta del proyecto tal como está en este repositorio, quedará algo similar a:
+
+```bash
+cd Landing-page-whafactura
+```
+
+### 2. Instalar dependencias con npm
+
+Dentro de la carpeta del proyecto, instala las dependencias definidas en `package.json`:
+
 ```bash
 npm install
 ```
 
-3. Iniciar el servidor web local y acceder a la URL `http://localhost/landing-factura-electronica` en el navegador.
+Esto creará la carpeta `node_modules/` con el paquete `bootstrap-icons`, que es requerido por el `index.php`.
 
-### Despliegue
+### 3. Ejecutar en entorno local
 
-Para desplegar el proyecto en el servidor web en producción, se debe copiar el contenido del proyecto en la subcarpeta `factura-electronica` del sitio web de contaportable, incluyendo la carpeta `node_modules` con los paquetes de dependencias instalados. Para ello, se puede utilizar WinSCP para facilitar la transferencia de archivos.
+1. Inicia tu servidor web local (por ejemplo, Apache en XAMPP).
+2. Accede a la URL en tu navegador. Si el proyecto está en `htdocs/Landing-page-whafactura`, la URL típica será:
+
+```text
+http://localhost/Landing-page-whafactura
+```
+
+## Despliegue en producción
+
+Para desplegar el proyecto en un servidor web en producción:
+
+1. Asegúrate de haber ejecutado previamente `npm install` en tu entorno local para que se genere la carpeta `node_modules/` con las dependencias.
+2. Copia todo el contenido del proyecto (incluyendo la carpeta `node_modules/`) a la carpeta correspondiente en el servidor de producción (por ejemplo, la subcarpeta de tu sitio donde se alojará el landing de WhaFactura).
+3. Verifica que el servidor tenga PHP habilitado y que la ruta al proyecto sea accesible desde el dominio o subdominio deseado.
+
+Para facilitar la transferencia de archivos, se puede utilizar herramientas como WinSCP o clientes SFTP/FTP equivalentes.
